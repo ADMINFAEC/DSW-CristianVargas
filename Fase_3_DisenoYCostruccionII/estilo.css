@@ -1,0 +1,23 @@
+header{
+    background-color: chartreuse;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+nav{
+    background-color: bisque;
+}
+section{
+    background-color: lightslategrey;
+    grid-column: 1/4;
+}
+aside{
+    background-color: orange;
+    grid-column: 4/5;
+}
+footer{
+    background-color: powderblue;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
